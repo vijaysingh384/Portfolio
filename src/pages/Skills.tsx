@@ -28,7 +28,7 @@ const skillGroups = [
       { name: "Git", icon: "https://cdn-icons-png.flaticon.com/128/2111/2111288.png" },
       { name: "GitHub", icon: "https://cdn-icons-png.flaticon.com/128/2111/2111432.png" },
       { name: "VS Code", icon: "https://cdn-icons-png.flaticon.com/128/906/906324.png" },
-      {name: "SQL" , icon: "https://cdn-icons-png.flaticon.com/128/4248/4248443.png"},
+      // {name: "SQL" , icon: "https://cdn-icons-png.flaticon.com/128/4248/4248443.png"},
     ],
   },
   {
