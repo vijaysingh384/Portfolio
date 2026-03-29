@@ -12,7 +12,7 @@ function About() {
         <div className="space-y-6 text-center mt-10">
           <div className="flex items-center gap-4">
             <div className="flex-1 h-px bg-gray-300"></div>
-            <span className="text-md font-medium text-indigo-600">About</span>
+            <span className="text-md font-medium text-violet-600">About</span>
             <div className="flex-1 h-px bg-gray-300"></div>
           </div>
           <div className="flex-1 h-px bg-gray-300"></div>
@@ -117,7 +117,7 @@ function About() {
           <div className="flex-1 h-px bg-gray-300"></div>
           <div className="flex items-center gap-4">
             <div className="flex-1 h-px bg-gray-300"></div>
-            <span className="text-md font-medium text-indigo-600">Projects</span>
+            <span className="text-md font-medium text-violet-600">Projects</span>
             <div className="flex-1 h-px bg-gray-300"></div>
           </div>
           <p className="max-w-3xl text-base dark:text-zinc-400 text-zinc-600 leading-relaxed px-15 mt-10">
@@ -132,13 +132,13 @@ function About() {
               title: "Nike Clone",
               desc: "A pixel-perfect e-commerce storefront built with React. Features product listings, dynamic cart, and a fully responsive layout that mirrors the Nike shopping experience.",
               img: "https://cdn-icons-png.flaticon.com/128/732/732229.png",
-              href: "https://github.com/vijaysingh384"
+              href: "https://nike-clone-xvfv.vercel.app/"
             },
             {
               title: "Apni Dukan",
               desc: "A full-featured online store with product management, cart functionality, and a clean checkout flow — built to simulate a real-world retail experience.",
               img: "https://cdn-icons-png.flaticon.com/128/1356/1356596.png",
-              href: "https://github.com/vijaysingh384"
+              href: "https://apni-dukan-k7e4.vercel.app/"
             },
             {
               title: "Chat App",

@@ -50,7 +50,7 @@ function Skills() {
 
         {/* Header */}
         <div className="mb-14 text-center">
-          <span className="text-sm font-medium text-indigo-600">Toolbox</span>
+          <span className="text-sm font-medium text-violet-600">Toolbox</span>
           <h1 className="mt-3 text-4xl md:text-5xl font-semibold tracking-tight text-text-primary">
             Skills & Technologies
           </h1>
@@ -66,7 +66,7 @@ function Skills() {
             <div key={group.category}>
               {/* Section label */}
               <div className="flex items-center gap-4 mb-6">
-                <span className="text-sm font-medium text-indigo-600 whitespace-nowrap">{group.category}</span>
+                <span className="text-sm font-medium text-violet-600 whitespace-nowrap">{group.category}</span>
                 <div className="flex-1 h-px bg-gray-200"></div>
               </div>
 
@@ -100,8 +100,8 @@ function Skills() {
         {/* Currently learning */}
         <div className="mt-14 rounded-2xl border border-border-primary bg-white p-6">
           <div className="flex items-center gap-2 mb-2">
-            <span className="h-2 w-2 rounded-full bg-red-500 animate-pulse"></span>
-            <span className="text-sm font-medium text-text-primary">Currently exploring</span>
+            <span className="h-2 w-2 rounded-full bg-sky-500 animate-pulse"></span>
+            <span className="text-sm font-medium text-sky-500">Currently exploring</span>
           </div>
           <p className="text-sm text-text-secondary leading-relaxed">
             Always leveling up — right now I'm diving deeper into full-stack development with the MERN stack,

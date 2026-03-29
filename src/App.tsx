@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 import Skills from './pages/Skills'
 import Projects from './pages/Projects'
 import NotFound from './pages/NotFound.tsx'
+import Certificates from './pages/Certificates.tsx'
 
 const pageTitles: Record<string, string> = {
   '/': 'Vijay Singh — Full-Stack Developer',
@@ -51,6 +52,7 @@ function App() {
         } />
         <Route path="/projects" element={<><Projects /><Footer /></>} />
         <Route path="/skills" element={<><Skills /><Footer /></>} />
+        <Route path="/certificates" element={<Certificates />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

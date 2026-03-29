@@ -5,13 +5,14 @@ const links = [
   { to: '/', label: 'Home' },
   { to: '/projects', label: 'Projects' },
   { to: '/skills', label: 'Skills' },
+  { to: '/certificates', label: 'Certificates' },
 ]
 
 function Navbar() {
   const [open, setOpen] = useState(false);
 
   const linkClass = ({ isActive }: { isActive: boolean }) =>
-    isActive ? 'text-indigo-600 font-medium' : 'font-medium text-gray-500 hover:text-text-primary';
+    isActive ? 'text-violet-600 font-medium' : 'font-medium text-gray-500 hover:text-text-primary';
 
   return (
     <nav className="w-full border-b border-border-primary/50">

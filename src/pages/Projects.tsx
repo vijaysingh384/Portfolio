@@ -42,7 +42,7 @@ function Projects() {
 
         {/* Header */}
         <div className="mb-14 text-center">
-          <span className="text-sm font-medium text-indigo-600">Portfolio</span>
+          <span className="text-sm font-medium text-violet-600">Portfolio</span>
           <h1 className="mt-3 text-4xl md:text-5xl font-semibold tracking-tight text-text-primary">
             Things I've built
           </h1>
