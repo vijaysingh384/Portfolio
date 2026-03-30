@@ -1,6 +1,7 @@
-import Profile from '../assets/profile1.png';
+// import Profile from '../assets/profile1.png';
 import { useState } from 'react';
 import ContactModal from './ContactModal';
+import call from "../assets/designarena_image_2lfkyw7j.jpg";
 
 function About() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -56,7 +57,7 @@ function About() {
                         <div className="grid h-full place-items-center rounded-xl border-2 border-[#A5AEB81F]/10 bg-[#EDEEF0]" style={{ boxShadow: "rgba(165, 174, 184, 0.32) 0px 2px 1.5px 0px inset" }} />
                       </div>
                     </div>
-                    <img src={Profile} alt="A headshot" className="absolute -top-1 left-0 h-[270px] w-[180px] rotate-[8deg] rounded-lg object-cover shadow transition-all duration-500 group-hover:rotate-[4deg] group-hover:scale-105" />
+                    <img src={call} alt="A headshot" className="absolute -top-1 left-0 h-[270px] w-[180px] rotate-[8deg] rounded-lg object-cover shadow transition-all duration-500 group-hover:rotate-[4deg] group-hover:scale-105" />
                   </div>
                 </div>
               </div>
