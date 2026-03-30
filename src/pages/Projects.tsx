@@ -12,7 +12,7 @@ const projects = [
     featured: true,
   },
   {
-    title: "Apni Dukan",
+    title: "LocalCart",
     description:
       "A full-featured online store with product management, cart functionality, and a clean checkout flow — built to simulate a real-world retail experience.",
     tags: ["React", "Node.js", "MongoDB"],

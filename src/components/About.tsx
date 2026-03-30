@@ -135,7 +135,7 @@ function About() {
               href: "https://nike-clone-xvfv.vercel.app/"
             },
             {
-              title: "Apni Dukan",
+              title: "LocalCart",
               desc: "A full-featured online store with product management, cart functionality, and a clean checkout flow — built to simulate a real-world retail experience.",
               img: "https://cdn-icons-png.flaticon.com/128/1356/1356596.png",
               href: "https://apni-dukan-k7e4.vercel.app/"
