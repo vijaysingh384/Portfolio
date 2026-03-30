@@ -8,15 +8,24 @@ const certificates = [
     issuer: "Anthropic",
     date: "March - 2026",
     credential: "https://verify.skilljar.com/c/8i2iyxcdhwr3", // paste credential URL here
-    icon: "https://cdn-icons-png.flaticon.com/128/1828/1828884.png",
+    icon: "https://cdn-icons-png.flaticon.com/128/1021/1021078.png",
   },
   {
     title: " Data Structures & Algorithms using C++ ",
     issuer: "LPU ",
     date: "june 2025",
     credential: "https://drive.google.com/file/d/1K2tuyTQO3E4gH13yr09xlwIgcTiiAlWi/view?pli=1 ",
-    icon: "https://cdn-icons-png.flaticon.com/128/1828/1828884.png",
+    icon: "https://cdn-icons-png.flaticon.com/128/1021/1021078.png",
   },
+{
+    title: " SQL for Data Science ",
+    issuer: "HackerRank ",
+    date: "april 2025",
+    credential: "https://www.hackerrank.com/certificates/7b56e0d185a6 ",
+    icon: "https://cdn-icons-png.flaticon.com/128/1021/1021078.png",
+  },
+  
+
 ];
 
 function Certificates() {
